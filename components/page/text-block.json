@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_text_blocks",
+  "info": {
+    "name": "textBlock",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

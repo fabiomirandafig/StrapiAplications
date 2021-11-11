@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "name": "hero",
+    "icon": "pager"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_members",
+  "info": {
+    "name": "member",
+    "icon": "person-booth"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "role": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_team_blocks",
+  "info": {
+    "name": "teamBlock",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.member"
+    }
+  }
+}
